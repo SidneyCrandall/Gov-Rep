@@ -1,0 +1,61 @@
+header{
+    color: black;
+    margin: 20px 10px 0px;
+    padding: 0px 30px 0px 30px;
+    text-align: center;
+    font-size: 115%;
+    }
+
+body{
+    background-color: white;
+}
+
+h1, h4 {
+    color: black;
+    font-style: italic;
+    font-size: 60px;
+    margin: 0.1em;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-size: 35px;
+    margin: 0.1em;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    font-size: 25px;
+    margin: 0.1em;
+    text-align: center;
+}
+
+.committees {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    }
+
+.com {
+    color: black;
+    flex-basis: 25%;
+    border: 2px dotted black;
+    padding: .3em;
+    margin: 0.1em;
+    text-align: center;
+    }
+
+.sponsored  {
+    display:flex
+    }
+
+.spons {
+    color: black;
+    flex-basis: 15%;
+    border: 2px dotted black;
+    padding: .5em;
+    margin: 0.1em;
+    text-align: left;
+    }
